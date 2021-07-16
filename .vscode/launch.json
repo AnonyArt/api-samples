@@ -1,0 +1,242 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "enter the fully qualified path for the pipe program name, for example '/usr/bin/ssh'",
+                "pipeArgs": [],
+                "debuggerPath": "enter the path for the debugger on the target machine, for example ~/vsdbg/vsdbg"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "enter the fully qualified path for the pipe program name, for example '/usr/bin/ssh'",
+                "pipeArgs": [],
+                "debuggerPath": "enter the path for the debugger on the target machine, for example ~/vsdbg/vsdbg"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch YouTubeAnalyticsReports",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.analytics.YouTubeAnalyticsReports",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddSubscription",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.AddSubscription",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch Captions",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.Captions",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChannelBulletin",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.ChannelBulletin",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChannelLocalizations",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.ChannelLocalizations",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChannelSectionLocalizations",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.ChannelSectionLocalizations",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommentHandling",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.CommentHandling",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommentThreads",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.CommentThreads",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch GeolocationSearch",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.GeolocationSearch",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvideoProgramming",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.InvideoProgramming",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyUploads",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.MyUploads",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlaylistLocalizations",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.PlaylistLocalizations",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlaylistUpdates",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.PlaylistUpdates",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quickstart",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.Quickstart",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch Search",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.Search",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpdateVideo",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.UpdateVideo",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch UploadThumbnail",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.UploadThumbnail",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch UploadVideo",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.UploadVideo",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch VideoLocalizations",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.data.VideoLocalizations",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreateBroadcast",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.live.CreateBroadcast",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteLiveChatMessage",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.live.DeleteLiveChatMessage",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetLiveChatId",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.live.GetLiveChatId",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertLiveChatMessage",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.live.InsertLiveChatMessage",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListBroadcasts",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.live.ListBroadcasts",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListLiveChatMessages",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.live.ListLiveChatMessages",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListStreams",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.live.ListStreams",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreateReportingJob",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.reporting.CreateReportingJob",
+            "projectName": "samples"
+        },
+        {
+            "type": "java",
+            "name": "Launch RetrieveReports",
+            "request": "launch",
+            "mainClass": "com.google.api.services.samples.youtube.cmdline.reporting.RetrieveReports",
+            "projectName": "samples"
+        }
+    ]
+}
